@@ -1,3 +1,4 @@
+body{margin: 0; padding: 0;}
 header{background-color: black; color: azure; height: 100px;}
 
 
@@ -8,16 +9,24 @@ left: 0;}
 
 h1{font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px;}
 
-article{width: 450px; height: 400px; text-align: center; margin: 50px auto; border: 2px solid yellowgreen;
+button{border-radius: 10px; padding: 10px;}
+button:hover{text-decoration: none; transform: translateY(2px); box-shadow: 0 2px 4px rgba(143, 143, 143, 0.2);}
+button a:hover{text-decoration: none; color: black;}
+
+nav{text-align: center; padding-top: 10px;}
+
+button a{text-decoration: none; color: black; margin: 20px;}
+
+article{width: 450px; height: 400px; text-align: center; margin: 20px auto; border: 2px solid yellowgreen;
         border-radius: 10px;  background-color: cadetblue;}
 article img{width: 300px; height: 200px; margin: 20px; border-radius: 10px;}
+article p{padding: 20px; text-align: justify ;}
 
-main{background-color: #adadadcd; margin: 0px, 40px;}
-
-
-
+main{background-color: #adadadcd; padding: 20px;}
 
 
 
-footer{text-align: center; background-color: grey; color: white;
-        width: 95%; padding: 20px;}
+
+
+
+footer{text-align: center; background-color: grey; color: white; padding: 20px;}
