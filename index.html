@@ -12,12 +12,14 @@
             <img src="./asset/logo.jpg" alt="logo">
             <h1 class="titulo">GSF Tattoo</h1>
         </div>
+        <div id="google_translate_element"></div>
     </header>
     <main>
     <nav>
         <button><a href="#">Inicio</a></button>
         <button><a href="./pages/galeria.html">Galeria</a></button>
         <button><a href="./pages/contacto.html">Contacto</a></button>
+        
     </nav>
 
         <article>
@@ -41,5 +43,21 @@
         <span>&copy;Todos los derechos reservados.</span>
     </div>
     </footer>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+        pageLanguage: 'es', // idioma original de tu página
+        includedLanguages: 'en,fr,ca,it', // idiomas a traducir
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');}
+    </script>
+    <script type="text/javascript"  
+        src="//translate.google.com/translate_a/element.js?
+        cb=googleTranslateElementInit">
+    </script>
+    <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
 </body>
 </html>
