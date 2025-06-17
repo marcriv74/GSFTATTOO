@@ -1,6 +1,6 @@
 body{margin: 0; padding: 0;}
-header{background-color: black; color: azure; height: 100px;}
 
+header{background-color: black; color: azure; height: 100px;}
 
 .logo img{width: 100px; height: 100px; position: absolute;
 left: 0;}
@@ -17,12 +17,19 @@ nav{text-align: center; padding-top: 10px;}
 
 button a{text-decoration: none; color: black; margin: 20px;}
 
-article{width: 450px; height: 400px; text-align: center; margin: 20px auto; border: 2px solid yellowgreen;
+article{width: 450px; height: 400px; text-align: center; margin: 20px auto; border: 2px solid purple;
         border-radius: 10px;  background-color: cadetblue;}
 article img{width: 300px; height: 200px; margin: 20px; border-radius: 10px;}
 article p{padding: 20px; text-align: justify ;}
 
-main{background-color: #adadadcd; padding: 20px;}
+main{background-color: #464646; padding: 20px;}
+
+.galeria img{width: 250px; height: 250px; border-radius: 10px;}
+
+.tattos{display: inline-flex; flex-wrap: wrap; gap: 10px;}
+.realismo{display: inline-flex; flex-wrap: wrap; gap: 10px;}
+
+h2{text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: white;}
 
 
 
