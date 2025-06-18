@@ -10,14 +10,15 @@ left: 0;}
 #google_translate_element{position: fixed; right: 20px;}
 
 h1{font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px;}
+h2{text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: white;}
+h4{margin: 3px; color: yellow;}
 
 button{border-radius: 10px; padding: 10px;}
-button:hover{text-decoration: none; transform: translateY(2px); box-shadow: 0 2px 4px rgba(143, 143, 143, 0.2);}
+button:hover{text-decoration: none; transform: translateY(2px); box-shadow: 0 2px 4px #8f8f8f33; background-color: darkgray;}
 button a:hover{text-decoration: none; color: black;}
+button a{text-decoration: none; color: black; margin: 20px;}
 
 nav{text-align: center; padding-top: 10px;}
-
-button a{text-decoration: none; color: black; margin: 20px;}
 
 article{width: 550px; height: 400px; text-align: center; margin: 20px auto; border: 2px solid purple;
         border-radius: 10px;  background-color: darkgrey;}
@@ -31,9 +32,6 @@ main{background-color: #464646; padding: 20px;}
 .tattos{display: inline-flex; flex-wrap: wrap; gap: 10px;}
 .realismo{display: inline-flex; flex-wrap: wrap; gap: 10px;}
 
-h2{text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: white;}
-h4{margin: 0;}
-
 section{width: 60%; margin: auto; border: 2px solid purple;
         border-radius: 20px; background-color: darkgrey; text-align: center; margin: 20px auto;}
 
@@ -41,11 +39,12 @@ hr{width: 50%; border: 1px solid purple;}
 
 .cajita{display: flex; width: 80%; margin: auto;
         justify-content: center; gap: 50px; margin-bottom: 20px;}
-
-.cajita a{color: white}
+.cajita a{color: yellowgreen}
 
 ul{list-style: none; margin: 0; padding: 0;}
+
 a{text-decoration: none;}
+a:hover{color: lime; text-decoration: underline;}
 
 .informacion, .mapa{width: 150px;}
 
