@@ -2,8 +2,7 @@ body{margin: 0; padding: 0;}
 
 header{background-color: black; color: azure; height: 100px;}
 
-.logo img{width: 100px; height: 100px; position: absolute;
-left: 0;}
+.logo img{width: 100px; height: 100px; position: absolute; left: 0;}
 .logo{display: flex; justify-content: center; text-align: center;
         gap: 10px; position: relative;}
 
@@ -11,7 +10,7 @@ left: 0;}
 
 h1{font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px;}
 h2{text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: white;}
-h4{margin: 3px; color: yellow;}
+h4{margin: 3px; color: coral;}
 
 button{border-radius: 10px; padding: 10px;}
 button:hover{text-decoration: none; transform: translateY(2px); box-shadow: 0 2px 4px #8f8f8f33; background-color: darkgray;}
@@ -27,7 +26,8 @@ article p{padding: 20px; text-align: justify ;}
 
 main{background-color: #464646; padding: 20px;}
 
-.galeria img{width: 250px; height: 250px; border-radius: 10px;}
+.galeria img{width: 200px; height: 200px; border-radius: 10px;}
+/*.galeria img:hover{transform: scale(0.9); filter: brightness(0.6);}*/
 
 .tattos{display: inline-flex; flex-wrap: wrap; gap: 10px;}
 .realismo{display: inline-flex; flex-wrap: wrap; gap: 10px;}
@@ -49,3 +49,11 @@ a:hover{color: lime; text-decoration: underline;}
 .informacion, .mapa{width: 150px;}
 
 footer{text-align: center; background-color: black; color: white; padding: 20px; display: block;}
+
+/* javaScript */
+
+.ampliada {transform: scale(2.5); z-index: 1; position: relative;}
+
+/*.hover-activo { transform: scale(0.9); filter: brightness(0.6);}*/
+
+/*.galeria img {width: 200px; transition: transform 0.3s ease, filter 0.3s ease; cursor: pointer;}*/
