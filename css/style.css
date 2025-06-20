@@ -10,19 +10,28 @@ header{background-color: black; color: azure; height: 100px;}
 
 h1{font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px;}
 h2{text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: white;}
+h3{font-size: 1.2rem;}
 h4{margin: 3px; color: coral;}
+.contacto{font-size: 1.3rem;}
 
-button{border-radius: 10px; padding: 10px;}
+button{border-radius: 10px; padding: 10px; background-color: #202020; color: white;}
 button:hover{text-decoration: none; transform: translateY(2px); box-shadow: 0 2px 4px #8f8f8f33; background-color: darkgray;}
-button a:hover{text-decoration: none; color: black;}
-button a{text-decoration: none; color: black; margin: 20px;}
+button a:hover{text-decoration: none;}
+button a{text-decoration: none; margin: 20px;}
 
 nav{text-align: center; padding-top: 10px;}
 
-article{width: 550px; height: 400px; text-align: center; margin: 20px auto; border: 2px solid purple;
-        border-radius: 10px;  background-color: darkgrey;}
-article img{width: 400px; height: 200px; margin: 20px; border-radius: 10px; border: 2px solid purple;}
-article p{padding: 20px; text-align: justify ;}
+.contenedor{display: flex; flex-wrap: wrap; gap: 2vw; padding: 2vw; justify-content: center; width: 90%; box-sizing: border-box;
+                background-color: #757575;}
+
+article{width: clamp(220px,25vw,30vw); height: 30%; text-align: justify; margin: 1rem; border: 0.15rem solid purple;
+        border-radius: 0.6rem;  background-color: darkgrey; display: flex; flex-direction: column; align-items: center;
+        box-sizing: border-box;}
+article img{width: 90%; height: 20vw; min-height: 180px; margin-top: 1rem; border-radius: 0.6rem; border: 0.15rem solid purple; object-fit: cover;}
+article p{padding: 0 1rem; text-align: justify; font-size: 1rem;}
+
+
+
 
 main{background-color: #464646; padding: 20px;}
 
@@ -32,10 +41,10 @@ main{background-color: #464646; padding: 20px;}
 .tattos{display: inline-flex; flex-wrap: wrap; gap: 10px;}
 .realismo{display: inline-flex; flex-wrap: wrap; gap: 10px;}
 
-section{width: 60%; margin: auto; border: 2px solid purple;
+section{width: 50%; margin: auto; border: 2px solid purple;
         border-radius: 20px; background-color: darkgrey; text-align: center; margin: 20px auto;}
 
-hr{width: 50%; border: 1px solid purple;}
+hr{width: 45%; border: 1px solid purple;}
 
 .cajita{display: flex; width: 80%; margin: auto;
         justify-content: center; gap: 50px; margin-bottom: 20px;}
