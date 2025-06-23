@@ -8,8 +8,8 @@ header{background-color: black; color: azure; height: 100px;}
 
 #google_translate_element{position: fixed; right: 20px;}
 
-h1{font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px;}
-h2{text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: white;}
+h1{font-family: Georgia, 'Times New Roman', Times, serif; font-size: 2.5rem;}
+h2{text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: white; font-size: 1rem;}
 h3{font-size: 1.2rem;}
 h4{margin: 3px; color: coral;}
 .contacto{font-size: 1.3rem;}
@@ -27,16 +27,14 @@ nav{text-align: center; padding-top: 10px;}
 article{width: clamp(220px,25vw,30vw); height: 30%; text-align: justify; margin: 1rem; border: 0.15rem solid purple;
         border-radius: 0.6rem;  background-color: darkgrey; display: flex; flex-direction: column; align-items: center;
         box-sizing: border-box;}
-article img{width: 90%; height: 20vw; min-height: 180px; margin-top: 1rem; border-radius: 0.6rem; border: 0.15rem solid purple; object-fit: cover;}
+article img{width: 90%; height: 20vw; min-height: 180px; margin-top: 1rem; border-radius: 0.6rem; border: 0.15rem solid purple;
+        object-fit: cover;}
 article p{padding: 0 1rem; text-align: justify; font-size: 1rem;}
-
-
-
 
 main{background-color: #464646; padding: 20px;}
 
 .galeria img{width: 200px; height: 200px; border-radius: 10px;}
-/*.galeria img:hover{transform: scale(0.9); filter: brightness(0.6);}*/
+.galeria img:hover{filter: brightness(0.6);}
 
 .tattos{display: inline-flex; flex-wrap: wrap; gap: 10px;}
 .realismo{display: inline-flex; flex-wrap: wrap; gap: 10px;}
@@ -58,6 +56,28 @@ a:hover{color: lime; text-decoration: underline;}
 .informacion, .mapa{width: 150px;}
 
 footer{text-align: center; background-color: black; color: white; padding: 20px; display: block;}
+
+@media(max-width: 700px){
+        header{width: auto;}
+        .logo{height: auto; position: static;}
+        h1{white-space: normal; text-align: justify;}
+}
+
+@media(max-width:450px){
+        .logo h1{font-size: 2rem;}
+        .realismo img{width: 80%;
+        height: auto;
+        margin: auto;}
+}
+
+@media(max-width:390px){
+        .logo h1{font-size: 1.5rem;}
+        .contacto{font-size: 0.8rem;}
+}
+
+
+
+
 
 /* javaScript */
 
