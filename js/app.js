@@ -14,16 +14,19 @@ imagenes.forEach(imagen => {
 
 // Alternar la clase en la imagen clicada
     imagen.classList.toggle('ampliada');
-    });
-
-//crear un efecto cuando pases por encima
-/*  
-imagen.addEventListener('mouseenter', () => {
-    if(!imagen.classList.contains("ampliar"))
-    imagen.classList.add('hover-activo');
+    }); 
 });
 
-imagen.addEventListener('mouseleave', () => {
-    imagen.classList.remove('hover-activo');
-    });*/ 
+//menu hamburguesa
+
+const boton = document.getElementById('hamburguesa');
+const menu = document.getElementById('menu');
+const overlay = document.getElementById('overlay');
+
+boton.addEventListener('click', () => {
+menu.classList.toggle('activo');
+overlay.classList.toggle('activo');
 });
+overlay.addEventListener('click', () => {
+menu.classList.remove('activo');
+overlay.classList.remove('activo');});
