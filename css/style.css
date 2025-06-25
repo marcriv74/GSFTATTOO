@@ -48,7 +48,11 @@ nav a{padding: 0 10px;}
 
 #overlay {display: none !important;}
 }
-/*menu hamburgues*/
+
+form{width: 40%; margin: auto; border: 2px solid purple; border-radius: 20px;background-color: darkgray; padding: 20px;}
+
+input{border-radius: 10px; padding: 10px; margin: 10px; width: 50%;}
+.mensaje{width: 50%;}
 
 .contenedor{display: flex; flex-wrap: wrap; gap: 2vw; padding: 2vw; justify-content: center; width: 75%; box-sizing: border-box;
                 background-color: #757575;}
@@ -110,6 +114,7 @@ footer{text-align: center; background-color: black; color: white; padding: 20px;
         .contacto{font-size: 0.8rem;}
         section{width: 90%;}
         hr{width: 75%;}
+        #mensaje{width: 60%;}
 }
 
 
