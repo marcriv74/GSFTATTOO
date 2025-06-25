@@ -9,7 +9,7 @@ header{background-color: black; color: azure; height: 100px;}
 #google_translate_element{position: fixed; right: 20px;}
 
 h1{font-family: Georgia, 'Times New Roman', Times, serif; font-size: 2.5rem;}
-h2{text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: white; font-size: 1rem;}
+h2{text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: white; font-size: 2rem;}
 h3{font-size: 1.2rem;}
 h4{margin: 3px; color: coral;}
 .contacto{font-size: 1.3rem;}
@@ -50,7 +50,7 @@ nav a{padding: 0 10px;}
 }
 /*menu hamburgues*/
 
-.contenedor{display: flex; flex-wrap: wrap; gap: 2vw; padding: 2vw; justify-content: center; width: 90%; box-sizing: border-box;
+.contenedor{display: flex; flex-wrap: wrap; gap: 2vw; padding: 2vw; justify-content: center; width: 75%; box-sizing: border-box;
                 background-color: #757575;}
 
 article{width: clamp(220px,25vw,30vw); height: 30%; text-align: justify; margin: 1rem; border: 0.15rem solid purple;
