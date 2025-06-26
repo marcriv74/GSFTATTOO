@@ -14,6 +14,10 @@ h3{font-size: 1.2rem;}
 h4{margin: 3px; color: coral;}
 .contacto{font-size: 1.3rem;}
 
+.gracias{text-align: center; color: white;}
+.cont{text-align: center; color: white;}
+.envio{margin: auto;}
+
 button{border-radius: 10px; padding: 10px; background-color: #202020; color: white;}
 button:hover{text-decoration: none; transform: translateY(2px); box-shadow: 0 2px 4px #8f8f8f33; background-color: darkgray;}
 button a:hover{text-decoration: none;}
