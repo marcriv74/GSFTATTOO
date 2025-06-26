@@ -14,6 +14,7 @@ h3{font-size: 1.2rem;}
 h4{margin: 3px; color: coral;}
 .contacto{font-size: 1.3rem;}
 
+/*gracias*/
 .gracias{text-align: center; color: white;}
 .cont{text-align: center; color: white;}
 .envio{margin: auto;}
@@ -53,10 +54,14 @@ nav a{padding: 0 10px;}
 #overlay {display: none !important;}
 }
 
-form{width: 40%; margin: auto; border: 2px solid purple; border-radius: 20px;background-color: darkgray; padding: 20px;}
+form{width: 45%; margin: auto; border: 2px solid purple; border-radius: 20px;background-color: darkgray; padding: 20px;}
 
-input{border-radius: 10px; padding: 10px; margin: 10px; width: 50%;}
+input{border-radius: 10px; width: 60%; float: right;}
+
+label{width: 100px;}
+
 .mensaje{width: 50%;}
+
 
 .contenedor{display: flex; flex-wrap: wrap; gap: 2vw; padding: 2vw; justify-content: center; width: 75%; box-sizing: border-box;
                 background-color: #757575;}
